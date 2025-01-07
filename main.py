@@ -8,8 +8,8 @@ import time
 import streamlit.components.v1 as components
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "c64fd78e-360a-465d-a201-85817a44a9a0"
-FLOW_ID = "0cddbc84-ed73-4fe2-8f54-b3eef37e000e"
+LANGFLOW_ID = st.secrets["LANGFLOW_ID"]
+FLOW_ID = st.secrets["FLOW_ID"]
 APPLICATION_TOKEN = st.secrets["APP_TOKEN"]
 ENDPOINT = "socialmedia-1"
 
